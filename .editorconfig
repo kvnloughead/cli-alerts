@@ -1,0 +1,14 @@
+[*]
+indent_style = tab
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+trim_trailing_whitespace = true
+
+# Disable for Markdown because trailing whitespace is significant
+[*.md]
+trim_trailing_whitespace = false
+
+[*.yml]
+indent_style = space
+indet_size = 2
