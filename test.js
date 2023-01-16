@@ -21,3 +21,9 @@ alert({
 	type: `warning`,
 	msg: `This is a warning`,
 });
+
+alert({
+	type: `warning`,
+	msg: `This is a warning`,
+	banner: `Watch out!`,
+});
