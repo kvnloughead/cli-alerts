@@ -1,28 +1,28 @@
-const alert = require("./index.js");
+const cliAlert = require("./index.js");
 
-alert();
+cliAlert();
 
-alert({
+cliAlert({
 	type: `error`,
 	msg: `This is an error`,
 });
 
-alert({
+cliAlert({
 	type: `success`,
 	msg: `This is a success`,
 });
 
-alert({
+cliAlert({
 	type: `info`,
 	msg: `FYI`,
 });
 
-alert({
+cliAlert({
 	type: `warning`,
 	msg: `This is a warning`,
 });
 
-alert({
+cliAlert({
 	type: `warning`,
 	msg: `This is a warning`,
 	banner: `Watch out!`,
